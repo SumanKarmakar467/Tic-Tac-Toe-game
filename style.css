@@ -51,7 +51,7 @@ h1 {
 
 .cell:hover{
   background:aquamarine;
-  transform: scale(1.05);
+  transform: scale(1.);
   
   
 }
