@@ -6,7 +6,7 @@ img{
   width:100vw;
 }
 
-boy {
+body {
   font-family: 'Segoe UI', sans-serif;
   background-image:url(backgroundimage.jpg);
   background-image-height:100vh;
