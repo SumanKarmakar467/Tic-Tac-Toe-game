@@ -8,7 +8,7 @@ function createBoard() {
   board.innerHTML = '';
   cells = [];
   for (let i = 0; i < 9; i++) {
-    const cell = docment.createElement("div");
+    const cell = document.createElement("div");
     cell.classList.add("cell");
     cell.dataset.index = i;
     cell.addEventListener("click", handleClick);
