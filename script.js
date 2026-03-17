@@ -1,4 +1,4 @@
-const board = document.getElemetById("board");
+const board = document.getElementById("board");
 const status = document.getElementById("status");
 let currentPlayer = "X";
 let gameActive = true;
