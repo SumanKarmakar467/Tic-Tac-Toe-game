@@ -4,7 +4,7 @@ let currentPlayer = "X";
 let gameActive = true;
 let cells = [];
 
-function createBord() {
+function createBoard() {
   board.innerHTML = '';
   cells = [];
   for (let i = 0; i < 9; i++) {
