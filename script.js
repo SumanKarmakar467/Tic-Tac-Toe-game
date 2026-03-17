@@ -26,7 +26,7 @@ function handleClick(e) {
 
   if (checkWinner()) {
     status.textContent = `🎉 Player ${currentPlayer} wins!`;
-    gameActive = fale;
+    gameActive = false;
   } else if (isDraw()) {
     status.textContent = "😐 It's a draw!";
     gameActive = false;
