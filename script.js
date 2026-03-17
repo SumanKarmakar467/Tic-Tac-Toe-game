@@ -1,5 +1,5 @@
 const board = document.getElementById("board");
-const status = document.getElementById("status");
+const status = document.getElementById("sttus");
 let currentPlayer = "X";
 let gameActive = true;
 let cells = [];
